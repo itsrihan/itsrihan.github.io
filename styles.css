@@ -344,3 +344,70 @@ a:visited {
         opacity: 0;
     }
 }
+
+/* Default styles for the message box */
+.message-box {
+    position: fixed;
+    top: 0;
+    left: 0;
+    height: 100%;
+    width: 100%;
+    background-color: #081b29;
+    background-image: url(bgimg-mobile.png);
+    background-size: 50%;
+    background-repeat: no-repeat;
+    background-position: center bottom;
+    display: none; /* Hide by default */
+    z-index: 999;
+}
+
+.message-box p{
+    position: inherit;
+    margin-top: 75%;
+    justify-content: center;
+    text-align: center;
+    font-size: 18px;
+    padding: 5%;
+}
+
+.message-box h3 {
+    margin-top: 10%;
+    color: aqua;
+    font-weight: bold;
+    text-align: center;
+    font-size: 18px;
+    padding: 0 10%;
+    margin-bottom: 35px;
+}
+
+.message-box a {
+    position: relative;
+    width: 150px;
+    justify-content: center;
+    align-items: center;
+    height: 100%;
+    background: aqua;
+    border: 2px solid aqua;
+    border-radius: 8px;
+    font-size: 19px; 
+    color: black;
+    margin-left: 35%;
+    text-decoration: none;
+    text-align: center;
+    font-weight: 600;
+    letter-spacing: 1px;
+    z-index: 1;
+    overflow: hidden;
+    transition: .5s;
+}
+
+.message-box a:hover{
+    color: aqua;
+}
+
+
+@media (max-width: 768px) {
+    .message-box {
+        display: block; /* Show message only on mobile */
+    }
+}
