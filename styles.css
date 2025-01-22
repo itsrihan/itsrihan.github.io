@@ -250,7 +250,6 @@ a:visited {
     color: aqua;
     text-decoration: none;
     z-index: 1; 
-    margin: 0 15 15px;
     overflow: hidden;
     transition: .5s;
 }
@@ -273,24 +272,6 @@ a:visited {
 
 .home-sci a:hover::before{
     width: 100%;
-}
-
-.home-imghover:hover{
-    background: #081b29;
-    opacity: .8;
-}
-
-.home-imghover::after {
-    content: '';
-    position: absolute;
-    top: 0;
-    right: 0;
-    width: 130%;
-    height: 100%;
-    background-color: #081b29;
-    animation: fadeIn 1.5s ease forwards;
-    animation-delay: .6s;
-    z-index: 100;
 }
 
 /* keyframe animation */
