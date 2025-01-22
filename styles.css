@@ -275,19 +275,6 @@ a:visited {
     width: 100%;
 }
 
-.home-imghover{
-    position:absolute;
-    top: 0;
-    right: 30px;
-    width: 700px;
-    height: 100%;
-    background: transparent;
-    transition: 3s;
-    animation: manipActivHover .1s forwards;
-    animation-delay: .6s;
-    pointer-events: none;
-}
-
 .home-imghover:hover{
     background: #081b29;
     opacity: .8;
@@ -311,12 +298,6 @@ a:visited {
 @keyframes showRight {
     100% {
         width: 0;
-    }
-}
-
-@keyframes manipActivHover{
-    100% {
-        pointer-events: auto;
     }
 }
 
