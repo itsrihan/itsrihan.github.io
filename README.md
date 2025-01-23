@@ -3,6 +3,8 @@ Welcome to my portfolio website! This project showcases my skills, experience, a
 
 🌐 Live Demo: itsrihan.github.io
 
+This portfolio is currently under development, and new features and improvements are being added.
+
 Technologies Used:
 HTML5: For structuring the content
 CSS3: For styling and responsiveness
