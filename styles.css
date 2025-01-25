@@ -282,15 +282,6 @@ a:visited {
     }
 }
 
-@keyframes fadeIn {
-    0% {
-        opacity: 1;
-    }
-    100% {
-        opacity: 0;
-    }
-}
-
 /* Default styles for the message box */
 .message-box {
     position: fixed;
